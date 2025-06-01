@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chúc Mừng 1/6</title>
+  <style>
+    body {
+      margin: 0;
+      background: pink;
+      color: white;
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .stars {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(white 1px, transparent 1px), pink;
+      background-size: 20px 20px;
+      z-index: 0;
+      opacity: 0.3;
+      animation: twinkle 2s infinite alternate;
+    }
+
+    @keyframes twinkle {
+      0% { opacity: 0.2; }
+      100% { opacity: 0.4; }
+    }
+
+    .lines {
+      position: relative;
+      z-index: 1;
+      top: 30px;
+      animation: slideDown 2s ease-out forwards;
+    }
+
+    .line {
+      font-size: 24px;
+      margin: 20px 0;
+      opacity: 0;
+      transform: translateY(-50px);
+      animation: appear 1s ease-out forwards;
+    }
+
+    .line:nth-child(1) { animation-delay: 0.3s; }
+    .line:nth-child(2) { animation-delay: 0.6s; }
+    .line:nth-child(3) { animation-delay: 0.9s; }
+    .line:nth-child(4) { animation-delay: 1.2s; }
+    .line:nth-child(5) { animation-delay: 1.5s; }
+    .line:nth-child(6) { animation-delay: 1.8s; }
+    .line:nth-child(7) { animation-delay: 2.1s; }
+    .line:nth-child(8) { animation-delay: 2.4s; }
+    .line:nth-child(9) { animation-delay: 2.7s; }
+    .line:nth-child(10) { animation-delay: 3.0s; }
+    .line:nth-child(11) { animation-delay: 3.3s; }
+    .line:nth-child(12) { animation-delay: 3.6s; }
+    .line:nth-child(13) { animation-delay: 3.9s; }
+    .line:nth-child(14) { animation-delay: 4.2s; }
+    .line:nth-child(15) { animation-delay: 4.5s; }
+    .line:nth-child(16) { animation-delay: 4.8s; }
+    .line:nth-child(17) { animation-delay: 5.1s; }
+    .line:nth-child(18) { animation-delay: 5.4s; }
+
+    @keyframes appear {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    img {
+      width: 100px;
+      margin-top: 30px;
+      animation: float 3s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+  </style>
+</head>
+<body>
+  <div class="stars"></div>
+  <div class="lines">
+    <div class="line">Chúc em yêu một ngày Quốc tế Thiếu nhi thật rực rỡ!</div>
+    <div class="line">Dù em không còn nhỏ, nhưng với anh em luôn đáng yêu như trẻ thơ.</div>
+    <div class="line">Anh luôn muốn che chở, yêu thương và làm em cười mỗi ngày.</div>
+    <div class="line">Chúc em luôn vui vẻ, hồn nhiên như ánh mặt trời bé con.</div>
+    <div class="line">Mỗi lần em cười là trái tim anh tan chảy đó nha!</div>
+    <div class="line">Anh biết em là cô gái mạnh mẽ, nhưng vẫn xứng đáng được chiều chuộng.</div>
+    <div class="line">Hôm nay em hãy nghỉ ngơi, ăn ngon và cười thật nhiều nhé!</div>
+    <div class="line">Cảm ơn em vì đã đến và làm thế giới của anh đáng yêu hơn bao giờ hết.</div>
+    <div class="line">Anh hứa sẽ là người bạn đồng hành, bạn thân và người yêu mãi mãi của em.</div>
+    <div class="line">Hãy luôn là cô công chúa tinh nghịch và đáng yêu của anh nhé!</div>
+    <div class="line">Mỗi khoảnh khắc bên em là món quà vô giá với anh.</div>
+    <div class="line">Anh hy vọng nụ cười em sẽ luôn rạng rỡ như hôm nay.</div>
+    <div class="line">Ngày 1/6 là ngày của những điều ngọt ngào – giống như em vậy!</div>
+    <div class="line">Anh sẽ luôn nắm tay em qua mọi mùa hè và mùa đông.</div>
+    <div class="line">Cảm ơn em đã làm trái tim anh trở nên ấm áp như nắng tháng 6.</div>
+    <div class="line">Em có biết không, anh yêu em nhiều lắm đó nha!</div>
+    <div class="line">Chúc em nhận được thật nhiều điều đáng yêu hôm nay!</div>
+    <div class="line">Happy 1/6, cô gái bé bỏng trong tim anh 💖</div>
+    <img src="https://static.wikia.nocookie.net/sanrio/images/b/b1/Kuromi_Profile.png" alt="Kuromi" />
+  </div>
+</body>
+</html>
